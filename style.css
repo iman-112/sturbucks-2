@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+    
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.border{
+    width: 100%;
+    height: 110px;
+    box-shadow: 1px 1px 0px 2px rgba(133, 127, 127, 0.88)
+    ;
+}
+.header{
+    width: 95%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-content img{
+    margin-top: 1rem;
+}
+.logo-content{
+    padding: 1rem;
+    display: flex;
+}
+.logo-content ul{
+    display: flex;
+}
+.logo-content ul li{
+    margin-left: 2rem;
+    padding: 2rem 0rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.logo-content ul li a:hover{
+    color: #00754a;
+}
+.sag-teref{
+    padding: 2.7rem;
+    display: flex;
+    grid-gap: 3rem;
+}
+
+.sag-teref .contact li i{
+
+    font-size: 1.5rem;
+}
+.sag-teref .contact li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.sag-teref .contact li a:hover{
+    color: #00754a;
+}
+.sign{
+    display: flex;
+    grid-gap: 2rem;
+}
+.sign button{
+    border-radius: 1rem;
+    padding: .3rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.join{
+    background-color: black;
+    color: #fff;
+    
+}
+.join:hover{
+    background-color:  rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}
+.sign-in{
+    background-color: white;
+}
+.sign-in:hover{
+  background-color: rgba(0,0,0,.06);
+}
+.main{
+    width: 100%;
+    margin-top: 2.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 674px;
+    height: 262px;
+    background-size: cover;
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-78082.png);
+}
+.content{
+    background-color: #D5EAE3;
+    width: 674px;
+    height: 262px;
+   
+}
+.main-color{
+    width: 100%;
+    height: 290px;
+    margin-top: 2rem;
+    background-color: #D5EAE3;
+}
+.content h2{
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color:#1e3932 ;
+}
+.content p{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: #1e3932;
+    width: 80%;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 1.2rem;
+}
+.content button{
+    width: max-content;
+    margin-top: 3rem;
+    margin-left:18rem;
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    background-color: #D5EAE3;
+    cursor: pointer;
+    transition: .2s all;
+}
+.content button:hover{
+    background-color: rgba(0,0,0,.1);
+}
+.image-content{
+    margin-top: 2rem;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.image{
+    width: 50%;
+    height: 80vh;
+    background-size: cover;
+}
+.image img{
+    width: 100%;
+    height: 584px;
+}
+.txt-container{
+    width: 50%;
+    background-color: #F06464;
+    text-align: center;
+    height: 80vh;
+}
+.txt-container h1{
+    margin-top: 8rem;
+    color: #FFFFFF;
+    font-size: 3.8rem;
+    font-weight: 800;
+    
+}
+.txt-container p{
+    padding-top: 2rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    word-spacing: 3px;
+    width: 70%;
+    margin: auto;
+
+}
+.txt-container button{
+    margin-top: 3rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    background-color: #F06464;
+    border: 1px solid #ccc;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s all;
+}
+.txt-container button:hover{
+    background-color: rgba(0,0,0,.1);
+}
+
+.image-content2{
+    flex-direction: row;
+}
+.content-2{
+    background-color: #9BF5B4;
+
+}
+
+.content-3{
+    background-color: #D4E9E2;
+}
+.content-2 h1{
+    color: #1E3932;
+    font-size: 4.5rem;
+    margin-top: 5rem;
+}
+.content-2 p {
+    color: #1E3932;
+}
+.content-2 button{
+    color: #1E3932;
+    background-color: #9BF5B4;
+    border: 1px solid #1E3932;
+}
+.content-3 h1{
+    color: #1E3932;
+    font-size: 2rem;
+}
+.content-3 p {
+    color: #1E3932;
+    font-size: 1.5rem;
+}
+.content-3 button{
+    background-color:#D4E9E2;
+    color: #1e3932;
+    border: 1px solid #1E3932;
+}
+.image-content4{
+    flex-direction: row;
+}
+.content-4{
+    background-color: #D4E9E2;
+}
+.content-4 h1{
+    color: black;
+    font-size: 1.5rem;
+}
+.content-4 p{
+    color: black;
+    font-size: 1.2rem;
+}
+.content-4 button{
+    color: black;
+    background-color:#D4E9E2 ;
+    border: 1px solid black;
+}
+
+.metnler{
+    text-align: center;
+    box-shadow: 1px 1px 0px 2px rgba(133, 127, 127, 0.88)
+    ;
+}
+.metnler h1{
+    padding: 4rem;
+    font-size: 1rem;
+    width: 50%;
+    margin: auto;
+}
+.metnler a{
+    text-decoration:underline;
+}
+.elaqeler{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.elaqeler h1{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.elaqeler ul li{
+    padding: 1rem;
+}
+.elaqeler ul li a{
+    font-size: 1.2rem;
+    color: gray;
+    font-size: 1rem;
+}
+.elaqeler{
+    border-bottom: 1px solid rgba(133, 127, 127, 0.88);
+
+}
+.term-of-use{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.term-of-use .fonts{
+    display: flex;
+}
+.term-of-use .fonts li{
+    margin-left: 1.5rem;
+    background-color: #1E1E1E;
+    padding: .7rem .7rem;
+    border-radius: 50%;
+}
+.term-of-use .fonts li i{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 1rem;
+}
+.privacy{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.privacy ul {
+    display: flex;
+}
+.privacy ul li a{
+    font-size: 1rem;
+}
+.privacy ul li{
+    padding: 1.3rem;
+}
+.privacy h3{
+    margin-top: 1rem;
+    font-size: .9rem;
+    margin-left: 1.5rem;
+    color: gray;
+
+}
